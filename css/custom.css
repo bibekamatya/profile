@@ -308,10 +308,10 @@ h6 {
     opacity: 0.5;
   }
   #home {
-    background: url(https://cdn.pixabay.com/photo/2020/03/24/03/35/man-4962668_960_720.png);
+    background: url(..//assets/img/hero.jpg);
     box-shadow: inset 0 0 0 2000px rgba(9, 77, 104, 0.75);
     background-repeat: no-repeat;
-    background-size: 150vw;
+    background-size:cover;
     display: table;
     height: 100vh !important;
     width: 100%;

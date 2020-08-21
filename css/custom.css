@@ -13,7 +13,18 @@
     padding: 0;
     margin: 0;
 }
+.emoji {
+  width:19%;
+  height:18%;
+  padding-bottom:25%;
+  position:relative;
+  left: 40%;
+  top: 12px;
+}
 
+.emoji .text-dark {
+  font-size: 40px !important;
+}
 #home h3 {
   font-size: 3vw;
 }
@@ -343,6 +354,19 @@ and (orientation: portrait) {
   margin: 13px !important;
   
   }
+
+  .background {
+  background: url(../assets/img/img.jpg);
+  background-repeat: repeat-y !important;
+  background-size: 100% auto;
+  position: fixed;
+  width: 100%;
+  /*height: 130%;
+*/  top: 0;
+  left: 0;
+  z-index: -1
+
+}
 }
 
  

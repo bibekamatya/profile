@@ -261,18 +261,21 @@ h1,h2,h3,h4,h5,h6 {
 
 /*Media*/
 
-@media (max-width: 360px) {
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
   .arrow {
   position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
-  }
-  }
+}
+}
+
 
 @media only screen
  
-and (min-device-width: 360px)
+and (min-device-width: 300px)
  
 and (max-device-width: 668px)
  

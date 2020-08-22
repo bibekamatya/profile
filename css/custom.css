@@ -15,16 +15,11 @@
 }
 
 .emoji {
-  width: 19%;
-  height: 18%;
-  padding-bottom: 25%;
-  position: relative;
-  left: 40%;
-  top: 12px;
-}
-
-.emoji .text-dark {
-  font-size: 40px !important;
+ height: 10% !important;
+ width: 10% !important;
+ top: 68%;
+ left: 45%;
+ position: absolute;
 }
 
 #home h3 {
@@ -295,20 +290,31 @@ h6 {
     padding: 5px 25px 5px 25px !important;
   }
   #home p {
-    font-size: 3vw;
     text-align: center;
-    margin: 30% 0 0 0;
-  }
+   /* margin: 30% 0 0 0;*/
+   /*change maid*/
+    margin: 40% 10px 0 10px;
+    text-align: center;  }
   #home h3 {
-    font-size: 4vw;
+    /*font-size: 4vw;*/
+    /*change maid*/
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+
   }
   .welcome-heading {
-    margin: 30% 0 0 13%;
+  /*  margin: 30% 0 0 13%;*/
     color: rgb(41, 43, 44);
-    opacity: 0.5;
+    /*change maid*/
+    position: relative;
+    bottom: -245px;
+    margin: 30% 0 0 0;
+
   }
   #home {
-    background: url(..//assets/img/hero.jpg);
+    /*background: url(..//assets/img/hero.jpg);*/
+    background: url(..//assets/img/me.jpg);
     box-shadow: inset 0 0 0 2000px rgba(9, 77, 104, 0.75);
     background-repeat: no-repeat;
     background-size:cover;

@@ -17,7 +17,7 @@
 .emoji {
  height: 10% !important;
  width: 10% !important;
- top: 68%;
+ top: 70%;
  left: 45%;
  position: absolute;
 }
@@ -304,11 +304,9 @@ h6 {
 
   }
   .welcome-heading {
-  /*  margin: 30% 0 0 13%;*/
     color: rgb(41, 43, 44);
-    /*change maid*/
     position: relative;
-    bottom: -245px;
+    bottom: -265px;
     margin: 30% 0 0 0;
 
   }
